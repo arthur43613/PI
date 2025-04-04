@@ -1,0 +1,90 @@
+---
+title: "Tratamento dados PI"
+output: Dados analizados e tratados
+---
+Importação Dados
+```{r}
+dados = read.csv("dadosAlagamentoPI.csv", sep=",", na.strings = "", stringsAsFactors = T)
+dados
+```
+
+Leitura basica dos dados
+```{r}
+head(dados)
+summary(dados)
+summary(dados$Vazão.atual)
+summary(dados$Temperatura)
+```
+
+Graficos
+```{r}
+barplot(dados$Vazao.Media,main = "Vazão Media")
+barplot(dados$Vazao.atual,main = "Vazão atual")
+barplot(dados$Milimitro.hora,main = "Milimitro hora")
+barplot(dados$Milimitro.do.dia,main = "Milimitro do dia")
+barplot(dados$Milimitro.em.sete.dias,main = "Milimitro em sete dias")
+barplot(dados$Temperatura,main = "Temperatura")
+barplot(dados$Velocidade.do.Vento,main = "Velocidade do Vento")
+```
+
+Outliers
+```{r}
+boxplot(dados$Vazao.Media,main = "Vazão Media")
+boxplot(dados$Vazao.atual,main = "Vazão atual")
+boxplot(dados$Milimitro.hora,main = "Milimitro hora")
+boxplot(dados$Milimitro.do.dia,main = "Milimitro do dia")
+boxplot(dados$Milimitro.em.sete.dias,main = "Milimitro em sete dias")
+boxplot(dados$Temperatura,main = "Temperatura")
+boxplot(dados$Velocidade.do.Vento,main = "Velocidade do Vento")
+```
+
+```{r}
+hist(dados$Vazao.Media,main = "Vazão.Media")
+hist(dados$Vazao.atual,main = "Vazão.atual")
+hist(dados$Milimitro.hora,main = "Milimitro.hora")
+hist(dados$Milimitro.do.dia,main = "Milimitro.do.dia")
+hist(dados$Milimitro.em.sete.dias,main = "Milimitro.em.sete.dias")
+hist(dados$Temperatura,main = "Temperatura")
+hist(dados$Velocidade.do.Vento,main = "Velocidade.do.Vento")
+```
+
+Mostra colunas com dados imcompletos em Solo
+```{r}
+dados[!complete.cases(dados$Solo),]
+```
+
+Mostra novo boxplot com dados corrigido 
+```{r}
+boxplot(dados$Vazao.atual,main = "Vazão Atual")
+boxplot(dados$Temperatura,main = "Temperatura")
+```
+
+Analizando medias dos dados numericos e categorias nos categoricos
+```{r}
+mean(dados$Vazao.Media)
+mean(dados$Vazao.atual)
+mean(dados$Milimitro.hora)
+mean(dados$Milimitro.do.dia)
+mean(dados$Milimitro.em.sete.dias)
+mean(dados$Temperatura)
+mean(dados$Velocidade.do.Vento)
+unique(dados$Solo)
+unique(dados$Notas)
+```
+
+Mostra dados que tem notas
+```{r}
+dados[complete.cases(dados$Notas),]
+dados[!complete.cases(dados$Solo),]
+```
+
+Salvando o arquivo
+```{r}
+write.csv(dados,"dadosCorretosPI.csv",row.names = TRUE)
+```
+
+```{r}
+help(write.csv)
+```
+
+
