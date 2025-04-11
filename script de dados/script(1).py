@@ -70,25 +70,18 @@ for idRio in range(10000):
     
     if vazao > (mediaVazao*1.5): #Se a vazão estiver acima de 50% do normal
         alagou = True
-        print('0')
     elif miliHora > 35 and miliDia > 70:
         alagou = True
-        print('1')
     elif temp > 30 and montanha == True:
         alagou = True
-        print('2')
     elif miliHora > 60 and veloVen < 15:
         alagou = True
-        print('3')
     elif (solo == 'Arenoso' or 'ARENOSO' or 'arenoso') and vegetacao == False and miliHora > 40:
         alagou = True
-        print('4')
     elif mili7 > 400 and cidade == True:
         alagou = True
-        print('5')
     elif costa == True and nota == 'Mare alta':
         alagou = True
-        print('6')
     else:
         alagou = False
 
