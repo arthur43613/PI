@@ -30,7 +30,10 @@ data = [['ID', 'Vazao Media', 'Vazao atual', 'Milimitro hora', 'Milimitro do dia
 for idRio in range(10000):
     mediaVazao = round(random.triangular(2000, 200000, 5000)) #Gera a vazão media do rio
 
-    vazao = round(random.triangular(mediaVazao/2, mediaVazao*2, mediaVazao)) #Gera a vazão atual do rio baseando na vazão media
+    if random.random() < 0.05: #Cinco porcento de chance de gerar uma vazão errada
+        vazao = round(random.triangular(mediaVazao*50, mediaVazao*200, mediaVazao*100))
+    else:
+        vazao = round(random.triangular(mediaVazao/2, mediaVazao*2, mediaVazao)) #Gera a vazão atual do rio baseando na vazão media
 
     if random.random() < 0.5: #50 porcento de chance de estar chovendo
         miliHora = round(random.triangular(0, 65, 5))
@@ -40,7 +43,10 @@ for idRio in range(10000):
     miliDia = round(random.triangular(0, 100, 0))
     mili7= round(random.triangular(0, 500, 4))
 
-    temp = round(random.triangular(-5, 40, 24))
+    if random.random() < 0.05: #Cinco porcento de chance de gerar uma temperatura errada
+        temp = round(random.triangular(70, 500, 300))
+    else:
+        temp = round(random.triangular(-5, 40, 24))
 
     if miliHora >= 10: #Se estiver chovendo os ventos serão forte, caso contrario normais
         veloVen = round(random.triangular(20, 110, 20))
