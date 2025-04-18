@@ -20,7 +20,7 @@ alagou = False
 ffT = [False,False,True]
 ttF = [False,True,True]
 
-solos = ['Arenoso','Argiloso','Humífero'] #Os tipos de solo com suas raridades
+solos = ['Arenoso','Arenoso','Arenoso','Argiloso','Argiloso','Humífero','arenoso','ARENOSO','arenoso','argiloso','ARGILOSO','humifero'] #Os tipos de solo com suas raridades
 
 notas = ['Queimada Recente','Historicamente alagavel', 'Mare alta'] #Condições temporárias que favorecem os alagamentos
 
