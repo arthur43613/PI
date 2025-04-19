@@ -84,6 +84,20 @@ boxplot(dados$Vazao.atual,main = "Vazão Atual")
 boxplot(dados$Temperatura,main = "Temperatura")
 ```
 
+Normalização dos tipos de solo e valores faltantes
+```{r}
+summary(dados$Solo)
+unique(dados$Solo)
+```
+```{r}
+dados$Solo[dados$Solo == "arenoso" | dados$Solo == "ARENOSO"] = "Arenoso"
+dados$Solo[dados$Solo == "argiloso" | dados$Solo =="ARGILOSO"] = "Argiloso"
+dados$Solo[dados$Solo=="humifero"] = "Humífero"
+dados$Solo[is.na(dados$Solo)]="Arenoso"
+dados$Solo = factor(dados$Solo)
+unique(dados$Solo)
+```
+
 Analizando medias dos dados numericos e categorias nos categoricos
 ```{r}
 mean(dados$Vazao.Media)
@@ -101,6 +115,12 @@ Mostra dados que tem notas
 ```{r}
 dados[complete.cases(dados$Notas),]
 dados[!complete.cases(dados$Solo),]
+```
+
+Remove coluna id
+```{r}
+dados <- dados[,-1]
+dados
 ```
 
 Salvando o arquivo
