@@ -53,6 +53,31 @@ Mostra colunas com dados imcompletos em Solo
 dados[!complete.cases(dados$Solo),]
 ```
 
+Tratando dados em temperatura errados
+```{r}
+tempErrado = dados[dados$Temperatura < -6|dados$Temperatura >41,]$Temperatura
+tempErrado
+```
+```{r}
+medianaTemperatura = median(dados[dados$Temperatura>-6|dados$Temperatura<41,]$Temperatura)
+medianaTemperatura
+```
+```{r}
+dados[dados$Temperatura< (-6)|dados$Temperatura>41,]$Temperatura = medianaTemperatura
+```
+
+Tratando dados em Vazão atual errados
+```{r}
+vazErrado = dados[dados$Vazao.atual < 999 |dados$Vazao.atual >400001,]$Vazao.atual
+vazErrado
+```
+
+Deleta dados errados
+```{r}
+dados <- subset(dados,Vazao.atual < Vazao.Media*2)
+dados
+```
+
 Mostra novo boxplot com dados corrigido 
 ```{r}
 boxplot(dados$Vazao.atual,main = "Vazão Atual")
