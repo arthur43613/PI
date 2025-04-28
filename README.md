@@ -1,8 +1,8 @@
 
 Titulo PI Alagamento
-Arthur: scrum master irá fazer o escript de criação de dados
+Arthur(Scrum Master): scrum master irá fazer o escript de criação de dados
 João: Ira fazer a analise de dados
-Leonardo: Ira fazer a limpeza dos dados
+Leonardo(P.O): Ira fazer a limpeza dos dados
 Carlos: Ira fazer parte de estrutura do projeto
 O principal objetivo deste projeto é desenvolver uma solução tecnológica capaz de prever a ocorrência de alagamentos em áreas urbanas, a partir da análise de dados ambientais e geográficos. A intenção é fornecer alertas antecipados e confiáveis para a população e órgãos responsáveis, minimizando os impactos sociais, ambientais e econômicos causados por enchentes, especialmente em regiões vulneráveis.
 as tecnologias que utilizamos foram docker,docker hub, jenkins,hadoop,spark,grafano,loki,prometheus
