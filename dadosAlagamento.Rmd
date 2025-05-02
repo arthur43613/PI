@@ -123,6 +123,13 @@ dados <- dados[,-1]
 dados
 ```
 
+
+```{r}
+colnames(dados) = c("vazaoMedia","vazaoAtual","milimitroHora","milimitroDia","milimitroSeteDias","temperatura","velocidadeVento","costa","cidade","vegetacao","montanha","solo","notas","alagou")
+dados
+```
+
+
 Salvando o arquivo
 ```{r}
 write.csv(dados,"dadosCorretosPI.csv",row.names = TRUE)
