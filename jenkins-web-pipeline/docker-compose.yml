@@ -1,0 +1,78 @@
+version: "3.9"
+
+services:
+  r-cleaner:
+    image: educg11/r-cleaner:latest
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - python-generator
+
+  python-generator:
+    image: educg11/python-generator:latest
+    volumes:
+      - ./data:/app/data
+    command: ["python", "script.py"]
+
+  dash-app:
+    build: ./dash-app
+    ports:
+      - "8050:8050"
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - r-cleaner
+    command: python3 dash_app.py 
+
+  git-clone:
+    image: alpine/git
+    volumes:
+      - ./PI:/repo
+    command: ["git", "clone", "https://github.com/CarlosEducg11/jenkins-web-pipeline.git", "/repo"]
+    depends_on:
+      - python-generator
+         
+  grafana:
+    build:
+      context: ./grafana 
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - ./grafana-data:/var/lib/grafana 
+
+      - ./data:/csv-data:ro
+    depends_on:
+      - prometheus 
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus:/etc/prometheus 
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    depends_on:
+      - cadvisor 
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    ports:
+      - "8081:8080" 
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
+    privileged: true 
+
+volumes:
+  db_data: 
+  grafana-data: 

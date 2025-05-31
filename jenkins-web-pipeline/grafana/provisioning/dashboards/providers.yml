@@ -1,0 +1,10 @@
+apiVersion: 1
+providers:
+  - name: 'Container Monitoring Dashboards' # Nome do provedor
+    orgId: 1
+    folder: 'Monitoramento de Contêineres' # Nome da pasta na UI do Grafana
+    type: file
+    disableDeletion: false # Permite deletar dashboards pela UI
+    editable: true         # Permite editar dashboards pela UI
+    options:
+      path: /var/lib/grafana/dashboards/provisioned # Caminho DENTRO do contêiner Grafana onde os JSONs estarão

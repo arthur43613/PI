@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 15s # Com que frequência o Prometheus coleta métricas
+
+scrape_configs:
+  - job_name: 'prometheus' # Monitora o próprio Prometheus
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: 'cadvisor' # Monitora o cAdvisor
+    scrape_interval: 10s # Pode ter um intervalo diferente
+    static_configs:
+      - targets: ['cadvisor:8080'] # 'cadvisor' é o nome do serviço no docker-compose
+                                   # 8080 é a porta padrão do cAdvisor

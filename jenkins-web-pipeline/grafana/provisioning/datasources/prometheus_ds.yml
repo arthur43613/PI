@@ -1,0 +1,10 @@
+apiVersion: 1
+datasources:
+  - name: Prometheus_Containers # Nome do datasource no Grafana
+    type: prometheus
+    access: proxy # Grafana acessa o Prometheus, não o browser do usuário
+    url: http://prometheus:9090 # 'prometheus' é o nome do serviço no docker-compose
+    isDefault: true
+    jsonData:
+      timeInterval: "15s" # Sugestão de intervalo para queries
+    editable: true
