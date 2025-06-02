@@ -40,21 +40,26 @@ como abrir o nosso trabalho
 ### 1. Clonar o Repositório do Projeto (Se Necessário)
 
 Se você ainda não tem os arquivos do projeto localmente:
-  git clone <https://github.com/CarlosEducg11/jenkins-web-pipeline.git>
+  git clone <https://github.com/CarlosEducg11/jenkins-web-pipeline.git> 
   cd <jenkins-web-pipeline>
+
+  ou o repositorio do projeto:
+
+  git clone <https://github.com/arthur43613/PI.git>
+  cd <PI>
 
 ### 2. Construir e Enviar Imagens Docker para o Docker Hub (Opcional)
 
 Os serviços são definidos para usar imagens do Docker Hub (ex: educg11/python-generator:latest). Se você modificar os serviços ou quiser usar seu próprio repositório, precisará construir e enviar as imagens. Substitua seunomeusuario pelo seu nome de usuário do Docker Hub.
 
-  docker build -t seunomeusuario/python-generator:latest .
-  docker push seunomeusuario/python-generator:latest
+  docker build -t educg11/python-generator:latest ./python-generator
+  docker push educg11/python-generator:latest
 
-  docker build -t seunomeusuario/r-cleaner:latest .
-  docker push seunomeusuario/r-cleaner:latest
+  docker build -t educg11/r-cleaner:latest ./r-cleaner
+  docker push educg11/r-cleaner:latest
 
-  docker build -t seunomeusuario/dash-app:latest ./dash-app
-  docker push seunomeusuario/dash-app:latest
+  docker build -t educg11/dash-app:latest ./dash-app
+  docker push educg11/dash-app:latest
 
   docker compose up --build 
 
