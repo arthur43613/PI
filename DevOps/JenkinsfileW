@@ -1,0 +1,58 @@
+pipeline {
+    agent any
+
+    environment {
+        DOCKER_HUB_USER = 'educg11'
+        IMAGE_PYTHON = "${DOCKER_HUB_USER}/python-generator"
+        IMAGE_R = "${DOCKER_HUB_USER}/r-cleaner"
+        IMAGE_DASH = "${DOCKER_HUB_USER}/dash-app"
+        IMAGE_GRAFANA = "${DOCKER_HUB_USER}/custom-grafana"
+        GIT_REPO_URL = 'https://github.com/CarlosEducg11/jenkins-web-pipeline.git'
+        GIT_CREDENTIALS_ID = 'github-creds'
+    }
+
+    stages {
+        stage('Clone Git Repository') {
+            steps {
+                script {
+                    git credentialsId: "${GIT_CREDENTIALS_ID}", url: "${GIT_REPO_URL}"
+                }
+            }
+        }
+
+        stage('Build and Push Docker Images') {
+            steps {
+                script {
+                    bat "docker build -t ${IMAGE_PYTHON}:latest ./python-generator"
+                    bat "docker build -t ${IMAGE_R}:latest ./r-cleaner"
+                    bat "docker build -t ${IMAGE_DASH}:latest ./dash-app"
+                    bat "docker build -t ${IMAGE_GRAFANA}:latest ./grafana"
+
+                    withCredentials([usernamePassword(credentialsId: 'token2', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
+                        bat "echo \$DOCKER_PASS | docker login -u \$DOCKER_USER --password-stdin"
+                        bat "docker push ${IMAGE_PYTHON}:latest"
+                        bat "docker push ${IMAGE_R}:latest"
+                        bat "docker push ${IMAGE_DASH}:latest"
+                        bat "docker push ${IMAGE_GRAFANA}:latest"
+                    }
+                }
+            }
+        }
+
+        stage('Deploy with Docker Compose') {
+            steps {
+                script {
+                    bat 'docker-compose down'
+                    bat 'docker-compose pull'
+                    bat 'docker-compose up -d --build'
+                }
+            }
+        }
+
+        stage('Stop Containers') { 
+            steps {
+                bat 'docker-compose down'
+            }
+        }
+    }
+}
