@@ -61,6 +61,9 @@ Os serviços são definidos para usar imagens do Docker Hub (ex: educg11/python-
   docker build -t educg11/dash-app:latest ./dash-app
   docker push educg11/dash-app:latest
 
+  docker build -t educg11/grafana:latest ./grafana
+  docker push educg11/grafana:latest
+
   docker compose up --build 
 
 ### 3. Comandos para Configuração do Jenkins
@@ -105,3 +108,6 @@ Os serviços são definidos para usar imagens do Docker Hub (ex: educg11/python-
         Salvar: Clique em "Save" (Salvar).
 
   Após salvar, na página principal do pipeline, clique em "Build Now" (Construir agora) no menu à esquerda.
+
+Dash : localhost:8050
+Grafana : localhost:3000

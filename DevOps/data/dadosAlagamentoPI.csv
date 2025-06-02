@@ -1,0 +1,701 @@
+ID,Vazao Media,Vazao atual,Milimitro hora,Milimitro do dia,Milimitro em sete dias,Temperatura,Velocidade do Vento,Costa,Cidade,Vegetacao,Montanha,Solo,Notas,Alagou
+0,35136,53130,0,23,261,28,19,True,False,True,False,Argiloso,,True
+1,38725,37951,33,19,211,31,91,False,True,True,False,arenoso,,False
+2,88223,133492,12,18,4,10,34,False,False,True,True,Argiloso,,True
+3,17814,10441,21,5,14,14,44,True,True,True,False,Humífero,,False
+4,53783,48969,16,53,19,13,21,False,False,True,False,arenoso,,False
+5,46175,65185,30,28,316,-1,25,True,False,True,False,ARGILOSO,,False
+6,101950,131506,27,84,76,16,25,True,False,True,False,humifero,,False
+7,94388,139407,0,7,176,23,22,False,True,True,False,,Queimada Recente,False
+8,5865,5989,11,11,73,-3,67,False,False,False,True,ARGILOSO,Mare alta,False
+9,103802,89495,29,2,448,376,50,False,False,False,True,Argiloso,Queimada Recente,True
+10,54456,50581,49,67,180,1,56,False,True,True,False,Arenoso,,False
+11,61014,90245,0,37,51,28,14,False,True,True,False,arenoso,,False
+12,10523,13464,0,26,192,-1,6,False,False,False,False,arenoso,,False
+13,94567,111915,0,47,129,20,25,False,False,False,False,Arenoso,,False
+14,10870,12135,0,29,285,3,11,False,False,True,False,Argiloso,,False
+15,32431,23717,5,10,180,24,16,True,True,True,True,ARENOSO,,False
+16,55085,63069,26,4,394,30,26,False,False,True,True,argiloso,,False
+17,22291,21528,0,39,158,20,22,False,True,True,True,ARENOSO,,False
+18,14083,17305,42,18,208,-3,33,False,False,False,False,ARGILOSO,,False
+19,97983,152475,4,15,232,17,30,False,False,True,False,humifero,,True
+20,131385,165023,0,2,4,1,10,False,False,True,False,arenoso,,False
+21,114755,157348,0,8,267,19,21,False,True,False,False,arenoso,,False
+22,5875,5452,53,16,61,20,34,False,False,True,False,arenoso,,False
+23,37188,31954,0,73,56,24,10,False,False,False,True,arenoso,,False
+24,41596,35678,0,11,144,21,19,False,False,True,False,,,False
+25,19289,26123,4,12,465,13,12,True,False,False,True,Arenoso,,False
+26,108310,82870,2,38,21,26,8,True,True,True,False,Arenoso,,False
+27,59393,83046,51,51,185,22,51,True,True,True,True,ARENOSO,,False
+28,10593,9500,24,4,72,8,35,False,False,True,False,Argiloso,,False
+29,39013,33445,0,20,27,17,9,True,False,False,False,Argiloso,,False
+30,28931,38094,0,29,111,11,17,False,False,False,True,Argiloso,,False
+31,91469,142068,23,21,258,310,37,False,False,True,False,Arenoso,,True
+32,35213,24546,14,57,213,24,58,True,False,False,False,arenoso,,False
+33,71416,80833,0,81,193,286,25,True,False,True,False,argiloso,Queimada Recente,False
+34,133360,102275,0,47,1,6,26,True,False,True,False,Humífero,,False
+35,92037,58422,27,10,211,27,59,False,True,True,False,Humífero,,False
+36,71508,95768,0,2,115,27,35,True,False,False,False,Argiloso,Mare alta,True
+37,74223,92704,14,0,224,8,82,False,False,True,True,ARGILOSO,,False
+38,69800,76186,2,24,15,310,5,False,True,True,False,Humífero,,False
+39,71000,95992,4,22,187,8,29,True,False,True,False,Arenoso,,False
+40,123081,95983,0,15,216,24,7,False,True,True,False,Arenoso,,False
+41,17251,22481,20,25,363,25,29,False,False,False,False,Arenoso,,False
+42,178954,183074,39,20,168,14,55,False,True,False,False,ARENOSO,,False
+43,76108,6239838,11,11,263,9,66,False,False,True,False,arenoso,,True
+44,68151,79875,4,17,304,14,24,False,False,True,False,Arenoso,,False
+45,93144,126471,11,7,97,26,50,True,False,False,False,Argiloso,,False
+46,94073,107133,45,43,125,17,73,False,True,False,False,Arenoso,,True
+47,63510,49912,0,23,126,26,8,False,True,True,True,Arenoso,,False
+48,29104,41616,0,15,233,24,3,False,False,True,False,argiloso,,False
+49,55275,50322,0,30,161,1,5,False,False,False,True,arenoso,,False
+50,55242,65268,0,10,66,7,22,True,True,True,False,ARGILOSO,,False
+51,60975,36921,0,25,74,32,10,False,True,False,True,ARENOSO,,True
+52,53326,50927,43,19,242,11,38,False,False,False,False,ARENOSO,Historicamente alagavel,True
+53,13502,14147,33,7,71,6,29,True,False,True,False,arenoso,Mare alta,True
+54,164588,209358,0,50,43,14,18,False,False,True,False,Arenoso,,False
+55,95091,59319,12,0,289,14,27,True,False,True,True,,,False
+56,176696,248484,24,3,260,33,46,True,True,True,False,argiloso,,False
+57,18817,19128,0,20,235,5,15,True,False,False,True,ARENOSO,,False
+58,45511,42038,0,27,123,31,9,True,True,True,False,argiloso,,False
+59,43478,55692,0,45,257,14,14,True,False,False,False,Argiloso,Queimada Recente,False
+60,40621,53787,10,7,331,20,72,False,False,False,False,Argiloso,,False
+61,109753,150737,9,51,19,18,26,True,False,True,False,arenoso,,False
+62,123288,138029,0,3,107,15,13,False,True,False,True,Arenoso,Historicamente alagavel,False
+63,118961,168043,0,1,355,-1,19,False,False,False,True,Arenoso,Historicamente alagavel,False
+64,24193,35302,0,22,13,7,24,False,False,False,False,Argiloso,,False
+65,6726,9572,0,27,226,36,12,True,True,True,False,ARENOSO,,False
+66,100377,124370,0,32,252,24,36,True,False,False,False,ARGILOSO,,False
+67,89838,96121,46,33,80,24,36,False,False,True,True,Arenoso,,False
+68,12874,10866,0,3,122,9,35,False,False,True,False,Argiloso,,False
+69,158655,95569,0,6,238,12,4,False,True,False,False,Argiloso,,False
+70,62349,67823,0,53,2,30,4,False,True,False,False,arenoso,,False
+71,123002,185495,15,2,5,35,69,False,True,True,False,arenoso,,True
+72,31643,47335,28,22,64,25,56,True,False,False,False,ARENOSO,,False
+73,37301,28375,17,28,12,29,40,False,True,False,True,arenoso,,False
+74,149706,20360285,0,18,30,9,16,False,False,True,True,argiloso,,True
+75,74648,86533,0,75,345,26,9,False,True,False,False,ARENOSO,Historicamente alagavel,False
+76,72833,68182,0,37,93,19,31,False,False,True,False,Arenoso,Queimada Recente,False
+77,51168,49742,0,8,353,22,26,True,True,True,False,Arenoso,,False
+78,18653,13498,0,26,139,376,18,True,False,True,False,ARGILOSO,,False
+79,13127,10143,6,8,51,31,25,False,False,False,False,Argiloso,,False
+80,6753,6497,18,78,87,23,39,True,True,True,False,humifero,,False
+81,49080,48292,21,7,304,28,48,False,True,True,True,argiloso,,False
+82,179516,216062,13,2,208,22,61,False,False,False,True,Humífero,,False
+83,113446,108757,0,36,141,31,17,False,False,True,False,Humífero,,False
+84,14678,21248,15,40,166,20,55,False,True,True,True,Arenoso,,False
+85,93309,71892,0,44,360,26,18,False,False,True,False,ARGILOSO,,False
+86,23459,15097,37,50,41,24,28,True,False,True,True,Arenoso,,False
+87,182516,280732,13,53,96,15,27,False,False,False,False,arenoso,,True
+88,6829,7779,0,11,73,18,28,True,False,True,True,Argiloso,,False
+89,62470,89960,19,19,163,14,21,False,True,False,False,Arenoso,,False
+90,10279,13378,0,23,314,20,15,False,True,True,True,arenoso,,False
+91,69137,67038,33,16,92,120,59,False,False,False,True,Humífero,,True
+92,87604,85822,26,27,88,24,48,False,False,False,True,Arenoso,,False
+93,6113,4956,43,58,377,27,83,False,False,False,False,arenoso,,True
+94,7331,9317,0,21,282,27,7,False,True,True,False,Humífero,,False
+95,22844,3913541,23,59,305,38,88,False,False,True,True,arenoso,,True
+96,64791,61758,0,57,250,9,7,False,False,False,False,Argiloso,,False
+97,122254,140889,0,22,124,25,7,False,True,True,False,Argiloso,Mare alta,False
+98,26575,38647,0,11,42,32,15,True,False,True,False,humifero,,False
+99,72910,104060,15,47,368,8,70,False,False,False,False,humifero,,False
+0,145405,111938,36,69,335,16,21,True,False,True,False,Argiloso,,False
+1,34458,47463,0,36,206,17,18,True,True,True,True,argiloso,,False
+2,54372,66299,38,14,71,25,41,True,False,True,False,ARENOSO,,False
+3,67633,75214,0,36,79,21,11,False,True,False,False,arenoso,,False
+4,71621,86334,0,57,104,28,19,True,False,False,True,ARGILOSO,,False
+5,43989,54570,37,46,285,32,82,False,False,False,False,Arenoso,,False
+6,100579,143234,0,8,24,18,5,False,False,True,False,Argiloso,Mare alta,False
+7,97770,105841,46,39,97,-2,41,False,False,True,False,arenoso,,False
+8,59788,89451,0,20,147,252,25,False,True,True,False,humifero,Historicamente alagavel,False
+9,163039,131923,0,57,210,20,5,False,False,True,False,Arenoso,,False
+10,31555,49954,12,10,226,7,30,False,False,False,True,Humífero,,True
+11,7953,6705,50,37,113,13,22,False,True,True,False,,,False
+12,29722,40778,35,8,315,11,44,False,False,False,False,Argiloso,,False
+13,23609,24093,36,61,269,30,61,True,False,True,False,humifero,,False
+14,50126,72927,43,68,339,16,33,False,True,True,True,Humífero,,False
+15,30911,30617,5,42,168,11,14,True,True,True,True,arenoso,,False
+16,108897,169756,0,27,9,21,10,True,True,True,False,Arenoso,Mare alta,True
+17,30076,49904,56,16,364,10,71,False,False,True,False,arenoso,,True
+18,11836,13185,0,41,97,288,11,False,False,False,False,Arenoso,Queimada Recente,False
+19,24619,32003,31,9,144,25,22,False,False,True,False,arenoso,,False
+20,161212,120910,0,27,32,33,23,False,False,True,False,Humífero,,False
+21,62120,90808,34,57,169,21,31,False,False,True,False,humifero,,False
+22,18520,29515,6,2,244,9,5,False,True,False,False,Arenoso,,True
+23,37351,45127,0,39,111,295,7,False,False,True,False,Arenoso,,False
+24,50834,78024,13,59,172,19,75,False,False,True,False,arenoso,Historicamente alagavel,True
+25,117985,105193,0,5,54,3,32,False,False,True,False,,,False
+26,110831,78114,60,30,16,21,28,True,False,True,True,Arenoso,,False
+27,107434,182101,0,23,106,25,15,False,False,True,False,arenoso,Mare alta,True
+28,32864,35864,0,13,94,30,12,False,True,True,False,Humífero,,False
+29,143582,117912,32,6,247,23,24,False,True,True,False,Humífero,,False
+30,21798,18864,0,37,116,26,17,True,False,True,True,humifero,,False
+31,88471,116831,0,17,309,35,8,False,False,True,True,Arenoso,,True
+32,83117,128241,0,57,71,4,7,False,True,True,False,argiloso,,True
+33,49176,61840,0,26,253,-2,8,False,False,False,True,Arenoso,,False
+34,37465,28800,22,42,44,22,81,False,False,True,False,ARENOSO,Mare alta,False
+35,64419,63144,0,80,62,38,33,False,False,True,True,Arenoso,,True
+36,102381,11002619,0,39,319,8,10,False,False,False,False,arenoso,,True
+37,61159,113847,0,13,57,29,16,False,False,False,True,Humífero,,True
+38,29342,43446,11,37,71,22,49,True,False,True,False,argiloso,,False
+39,45713,69451,41,73,79,34,92,False,False,True,False,humifero,,True
+40,171560,191567,0,34,336,5,2,True,True,True,False,humifero,,False
+41,180798,122547,0,18,6,24,21,False,True,False,False,Argiloso,,False
+42,133185,18081289,14,71,39,18,54,False,False,True,True,humifero,,True
+43,111443,141517,7,34,28,23,7,False,True,True,False,arenoso,Historicamente alagavel,False
+44,175296,217560,0,25,205,22,30,True,False,False,False,humifero,,False
+45,72921,59855,0,16,96,13,22,False,True,True,False,arenoso,,False
+46,153769,274692,0,2,117,21,5,False,False,True,False,arenoso,,True
+47,104078,94416,0,31,212,34,25,False,False,True,True,Argiloso,Mare alta,True
+48,32860,29092,15,57,165,14,34,False,False,True,True,ARGILOSO,,False
+49,40526,72639,0,20,110,22,7,False,False,True,False,arenoso,Historicamente alagavel,True
+50,29534,38394,3,39,119,39,13,True,True,False,False,Arenoso,,False
+51,141299,172946,0,14,204,10,22,True,False,False,False,Argiloso,,False
+52,138548,213949,15,2,161,20,41,False,False,True,True,Argiloso,,True
+53,24337,1943683,16,58,41,29,40,True,False,True,True,arenoso,,True
+54,45572,44362,34,5,198,36,70,True,True,False,False,Argiloso,,False
+55,61734,52514,33,25,207,34,45,True,False,True,True,ARENOSO,,True
+56,65275,53835,17,27,108,34,36,False,True,True,False,,Queimada Recente,False
+57,41858,50855,0,5,184,18,33,False,False,False,False,Arenoso,,False
+58,66379,53115,0,9,48,33,15,False,False,True,False,argiloso,,False
+59,105870,111969,0,38,15,19,9,False,False,True,False,arenoso,,False
+60,33342,31829,0,55,63,29,8,False,False,True,False,arenoso,,False
+61,10407,11566,12,24,4,287,60,False,True,True,True,arenoso,,True
+62,6758,9735,0,10,212,27,14,False,False,True,False,arenoso,,False
+63,146181,194174,0,43,161,33,14,False,False,True,False,Arenoso,Mare alta,False
+64,51293,55459,0,66,83,31,25,False,False,True,False,arenoso,,False
+65,4862,6288,40,66,168,4,71,True,False,True,False,Argiloso,,False
+66,81800,84570,41,77,19,24,94,True,False,True,False,Argiloso,,True
+67,93428,77142,0,46,62,16,25,False,False,False,False,ARGILOSO,,False
+68,77561,102406,27,40,214,14,26,False,False,False,False,ARENOSO,,False
+69,148904,130669,0,20,235,-4,17,False,False,True,True,Arenoso,,False
+70,87934,112956,4,78,35,15,16,True,False,True,False,,,False
+71,43898,56141,0,78,164,30,20,True,False,False,True,Arenoso,,False
+72,51059,4446217,16,15,380,22,28,True,False,True,True,Humífero,,True
+73,139629,179822,0,13,179,26,8,False,True,True,True,Arenoso,,False
+74,95403,98992,21,30,386,-3,44,False,True,False,False,ARGILOSO,,False
+75,49199,53842,0,3,187,31,24,False,False,True,True,Humífero,,True
+76,57775,63971,0,0,282,168,6,False,False,True,True,ARGILOSO,,True
+77,45238,32299,0,4,76,16,24,True,True,True,False,argiloso,,False
+78,8862,14679,0,70,195,29,22,False,False,True,True,humifero,,True
+79,16003,23761,0,14,252,8,36,False,False,True,False,humifero,Mare alta,False
+80,83606,72027,49,36,19,23,74,True,False,False,False,Argiloso,,False
+81,168971,182508,0,7,319,25,6,False,False,True,False,Argiloso,,False
+82,13267,18553,0,65,275,34,13,False,True,False,True,arenoso,,True
+83,8620,9519,0,4,161,4,24,False,False,True,False,ARENOSO,Historicamente alagavel,False
+84,105273,100539,8,8,148,22,6,True,False,True,True,humifero,,False
+85,121176,104469,0,32,321,21,15,False,False,False,False,Arenoso,,False
+86,7464,10082,7,48,211,30,22,True,False,False,True,Arenoso,,False
+87,9984,9091,9,75,222,21,14,False,False,True,True,Arenoso,,False
+88,78715,99416,4,54,315,25,5,True,True,True,False,Arenoso,,False
+89,14386,13181,18,54,461,35,59,False,False,True,True,Arenoso,,True
+90,21351,12799,0,58,188,30,24,True,False,False,False,Arenoso,,False
+91,83913,85370,5,2,338,24,10,False,False,True,False,arenoso,,False
+92,45217,79811,0,49,18,6,9,True,True,True,True,Humífero,,True
+93,60750,60562,22,2,98,22,80,False,True,False,False,Arenoso,,False
+94,64041,58609,0,5,172,8,16,False,True,False,True,Humífero,,False
+95,15005,16293,8,15,76,10,37,False,True,True,False,Humífero,Historicamente alagavel,False
+96,9777,16008,0,22,157,4,33,False,True,True,True,Arenoso,,True
+97,91343,84041,0,8,92,15,19,False,True,True,False,arenoso,,False
+98,30091,41615,32,44,334,21,31,True,False,False,True,Arenoso,,False
+99,60200,39801,49,61,87,30,57,False,True,True,False,arenoso,,False
+0,57718,68140,25,28,4,275,83,True,True,True,False,Arenoso,Queimada Recente,False
+1,9845,13567,38,4,69,19,57,False,False,True,False,arenoso,,False
+2,78687,117595,17,11,362,29,86,False,True,True,False,arenoso,,False
+3,116123,165119,17,13,116,29,65,False,False,True,False,Argiloso,,False
+4,57084,85383,0,46,89,28,21,False,False,True,False,Arenoso,,False
+5,36639,39040,54,2,82,34,64,True,False,True,True,Arenoso,,True
+6,12462,19871,4,48,140,23,20,True,False,False,False,Arenoso,,True
+7,74281,40777,28,26,296,17,37,False,True,False,False,arenoso,,False
+8,68360,85551,0,15,349,28,13,False,True,True,True,Humífero,,False
+9,25467,22770,6,17,173,8,9,False,False,True,True,humifero,,False
+10,95743,132882,0,65,72,9,11,False,True,False,False,Arenoso,,False
+11,88604,112956,0,28,171,24,23,True,True,False,True,Arenoso,,False
+12,65016,73642,0,43,217,25,37,False,False,True,False,Humífero,,False
+13,99332,112303,0,21,149,18,31,True,True,False,False,ARENOSO,,False
+14,49990,48622,22,9,339,26,73,False,False,False,False,,,False
+15,18394,19708,0,31,121,25,15,False,True,True,True,Arenoso,,False
+16,58679,8754234,0,34,295,-2,23,False,False,True,False,Humífero,,True
+17,141457,137009,17,45,235,22,30,False,False,True,True,humifero,,False
+18,26472,29878,15,5,328,24,79,False,True,True,True,Arenoso,,False
+19,88608,116218,0,1,234,4,4,False,False,True,False,arenoso,,False
+20,124244,193704,0,0,32,225,10,False,False,True,False,arenoso,,True
+21,26540,28563,0,48,135,21,12,False,True,True,False,arenoso,,False
+22,30343,26557,0,41,118,11,26,False,False,False,False,Arenoso,,False
+23,7693,13964,28,5,251,8,21,False,False,True,False,Arenoso,,True
+24,182086,251666,18,38,47,18,82,False,False,True,True,argiloso,,False
+25,69072,110579,0,38,289,29,8,False,False,True,True,Arenoso,,True
+26,78407,82191,0,15,38,22,23,True,True,False,False,ARGILOSO,,False
+27,153023,147302,0,9,33,18,11,False,False,True,False,Arenoso,,False
+28,7419,9383,2,34,340,378,15,False,False,False,False,ARENOSO,,False
+29,56389,54126,0,60,23,15,19,True,False,True,True,arenoso,,False
+30,59160,97677,0,6,11,14,14,False,False,True,True,Arenoso,,True
+31,18690,20912,35,9,60,34,24,True,False,True,False,arenoso,,False
+32,83363,109255,20,2,91,26,56,False,False,True,False,ARGILOSO,,False
+33,47756,65131,5,17,213,13,29,True,False,True,False,Arenoso,,False
+34,157387,192452,0,16,194,11,28,True,False,True,False,arenoso,,False
+35,32887,32567,6,37,115,33,11,True,False,True,True,humifero,,True
+36,100256,186051,18,6,143,31,64,True,True,True,False,Arenoso,,True
+37,81701,129589,12,30,143,21,100,True,False,True,False,arenoso,Mare alta,True
+38,11213,17119,24,31,157,19,25,False,True,False,False,Humífero,,True
+39,59644,81071,0,73,184,31,18,True,True,False,False,arenoso,Mare alta,True
+40,65075,81946,26,29,76,40,59,False,False,False,False,Arenoso,,False
+41,6458,6731,32,68,393,26,53,True,False,False,True,Arenoso,,False
+42,65111,69341,22,73,27,33,38,True,True,False,True,ARENOSO,,True
+43,47824,55983,0,28,175,18,24,False,True,True,False,arenoso,,False
+44,58739,92014,20,1,13,9,30,False,False,True,True,Argiloso,,True
+45,55493,73574,0,31,75,27,13,True,False,True,False,Arenoso,,False
+46,10402,14945,0,57,49,38,16,False,False,True,False,arenoso,,False
+47,102257,81990,0,68,29,12,19,False,False,True,False,Arenoso,,False
+48,17298,13353,6,66,216,375,15,False,False,False,True,arenoso,,True
+49,146355,170607,24,33,191,20,55,True,False,True,False,arenoso,,False
+50,114782,138422,0,69,160,29,3,False,False,True,False,humifero,,False
+51,141147,259799,29,12,169,32,24,True,False,True,True,ARENOSO,,True
+52,133007,134892,15,5,81,11,28,True,True,False,False,Humífero,,False
+53,18818,11151,6,78,19,26,2,False,False,False,False,arenoso,,False
+54,7840,12291,0,80,217,30,29,False,True,True,False,Argiloso,,True
+55,10335,15097,0,99,254,19,19,False,True,True,False,Arenoso,,False
+56,28520,24701,56,90,139,10,38,False,False,True,False,argiloso,Mare alta,True
+57,39141,31876,0,32,198,29,10,False,False,True,False,Arenoso,,False
+58,42911,58879,0,65,3,5,9,False,False,False,False,,,False
+59,90753,118526,36,47,31,33,83,False,False,False,False,Argiloso,Historicamente alagavel,False
+60,158328,164528,44,72,56,25,50,False,False,True,False,Arenoso,,True
+61,35708,38709,13,79,4,17,55,False,False,True,False,Arenoso,,False
+62,19323,25516,53,60,56,0,105,True,False,True,False,arenoso,,False
+63,48990,67277,24,18,338,12,59,False,False,True,True,Arenoso,,False
+64,56823,50791,3,5,387,7,36,False,True,True,False,Humífero,,False
+65,3455,5230,0,72,380,20,8,True,True,True,False,Arenoso,Queimada Recente,True
+66,113629,129287,10,64,219,21,41,False,False,True,False,Argiloso,,False
+67,16472,18735,9,31,257,19,8,False,True,True,False,ARENOSO,,False
+68,135846,171872,0,18,205,236,22,True,False,False,False,Humífero,Queimada Recente,False
+69,75064,83010,38,81,76,16,68,False,False,True,False,ARENOSO,,True
+70,72998,78155,0,17,166,15,5,True,False,False,True,humifero,,False
+71,82446,99777,0,9,21,13,24,False,False,True,False,Arenoso,Mare alta,False
+72,147048,251199,0,6,463,11,20,False,False,True,True,Humífero,Historicamente alagavel,True
+73,64245,88528,14,47,67,30,26,False,True,True,False,Argiloso,Mare alta,False
+74,62754,67112,0,59,190,19,19,False,False,True,False,Arenoso,Historicamente alagavel,False
+75,13568,18871,18,21,32,13,33,True,False,True,True,arenoso,,False
+76,77995,124517,35,74,164,9,48,False,False,False,False,Humífero,,True
+77,60716,53369,0,14,324,5,12,False,False,False,True,Arenoso,,False
+78,62819,49529,11,31,66,22,47,True,True,False,False,Arenoso,,False
+79,123015,159355,0,19,226,30,19,False,False,True,False,Arenoso,,False
+80,106261,20283833,37,67,154,16,37,True,False,True,False,argiloso,,True
+81,54123,32547,0,1,171,20,6,True,False,True,True,arenoso,,False
+82,124561,153730,7,60,320,39,9,False,False,True,True,Humífero,,True
+83,33909,31256,0,20,30,17,14,False,False,True,True,Arenoso,,False
+84,24648,28532,0,37,408,31,6,False,False,False,False,ARGILOSO,,False
+85,45543,71108,0,62,208,19,15,False,False,False,False,Arenoso,,True
+86,4304,6381,7,51,94,0,6,True,True,False,False,ARENOSO,,False
+87,152112,133652,17,53,315,26,26,False,False,True,False,Arenoso,Historicamente alagavel,False
+88,69836,59944,0,79,384,29,6,False,False,True,False,Argiloso,,False
+89,42805,49372,48,5,114,18,90,False,False,True,False,Argiloso,,False
+90,60257,103639,3,9,101,36,34,False,False,True,False,Arenoso,Mare alta,True
+91,58353,60277,0,50,121,1,8,False,True,True,False,arenoso,,False
+92,18419,27824,0,26,3,17,11,False,False,True,False,Arenoso,,True
+93,68174,58440,46,46,426,14,53,False,False,True,False,,,False
+94,73507,71672,35,16,178,36,64,False,False,False,True,Arenoso,,True
+95,150955,208733,45,36,110,27,51,False,False,True,True,Arenoso,,False
+96,15600,16077,26,39,102,8,37,False,True,True,False,Argiloso,,False
+97,161240,220333,0,66,64,19,25,True,True,True,False,arenoso,,False
+98,67408,68638,4,43,48,12,18,True,False,False,False,Arenoso,,False
+99,113126,106893,0,19,344,18,14,True,False,True,True,humifero,Queimada Recente,False
+0,17709,18541,5,16,41,12,13,True,True,False,True,argiloso,Queimada Recente,False
+1,29625,39314,45,25,253,33,29,False,False,True,False,,,False
+2,65227,106141,36,10,177,26,66,True,False,False,True,Humífero,,True
+3,24372,40073,0,25,19,229,11,True,True,False,False,Argiloso,,True
+4,97316,81401,26,12,38,4,94,False,True,False,False,humifero,Historicamente alagavel,False
+5,27770,41893,0,19,16,-2,10,True,False,True,False,arenoso,,True
+6,52036,54379,28,27,17,18,76,False,False,True,False,humifero,,False
+7,124078,128689,0,14,162,414,27,False,False,True,False,ARGILOSO,Historicamente alagavel,False
+8,129281,186241,11,33,325,23,34,False,False,False,False,ARGILOSO,,False
+9,74987,82358,12,79,321,18,31,False,False,False,False,humifero,,False
+10,60109,103181,6,10,26,36,2,True,True,True,False,Arenoso,,True
+11,59255,83098,0,5,155,35,21,False,True,True,False,Arenoso,Queimada Recente,False
+12,53383,52414,0,3,450,16,8,True,True,True,False,,,True
+13,15320,13196,0,61,335,25,25,False,True,False,False,Arenoso,,False
+14,17954,20669,29,11,83,10,90,False,True,True,False,Arenoso,,False
+15,26759,44757,17,78,94,-2,35,False,True,True,False,argiloso,Queimada Recente,True
+16,25075,17332,16,10,67,19,62,True,False,True,False,Argiloso,,False
+17,97307,133647,51,13,55,11,74,True,False,True,False,Arenoso,,False
+18,17175,19239,27,7,298,15,40,False,False,True,False,humifero,,False
+19,118502,114564,55,77,157,14,46,False,False,True,True,argiloso,,True
+20,105432,88019,37,77,142,6,44,True,False,False,False,arenoso,,True
+21,22574,31110,0,48,332,16,16,False,False,True,False,ARGILOSO,,False
+22,53921,69573,0,23,6,28,27,False,False,True,False,humifero,,False
+23,46680,46982,0,13,145,12,12,True,True,True,False,Argiloso,,False
+24,17901,16667,0,10,18,13,11,True,False,True,False,,,False
+25,71800,82676,12,19,314,28,38,False,False,True,False,Argiloso,,False
+26,133119,98048,43,34,99,7,21,True,False,True,True,Argiloso,Historicamente alagavel,False
+27,44574,28701,10,11,401,21,30,False,True,True,False,Argiloso,,True
+28,36061,60935,30,67,87,24,20,True,True,False,True,Arenoso,,True
+29,95896,142459,0,8,228,26,15,True,True,True,False,arenoso,,False
+30,131719,123488,0,17,96,18,23,False,False,False,False,arenoso,,False
+31,53415,7200521,0,48,183,13,18,False,False,True,True,Arenoso,,True
+32,115877,143270,21,29,27,27,21,True,False,True,False,argiloso,,False
+33,26458,22851,24,17,108,20,47,False,False,False,False,Arenoso,,False
+34,6698,11663,0,10,33,4,15,False,False,False,True,ARENOSO,,True
+35,64973,77755,32,35,276,30,42,False,True,True,True,argiloso,,False
+36,60982,100874,41,23,82,21,41,False,False,True,False,ARENOSO,,True
+37,55331,30014,0,53,90,11,8,False,False,True,False,ARENOSO,,False
+38,39644,35726,0,18,112,-1,9,False,True,False,True,ARGILOSO,,False
+39,18124,27465,0,74,260,21,16,True,True,True,True,argiloso,,True
+40,54076,79120,9,36,314,22,13,True,False,True,True,ARENOSO,Mare alta,True
+41,5500,3553,0,48,47,12,11,False,False,True,True,ARENOSO,Historicamente alagavel,False
+42,92237,74007,0,24,180,19,24,False,True,False,False,,,False
+43,89704,47456,28,38,182,10,81,False,True,True,False,Argiloso,Mare alta,False
+44,138590,173128,10,15,215,9,25,True,True,False,False,Arenoso,Mare alta,True
+45,91754,145582,56,57,38,302,64,False,False,True,False,humifero,,True
+46,20818,23667,0,5,250,9,5,False,False,True,False,ARENOSO,,False
+47,113268,182960,23,26,286,37,39,False,True,True,True,Argiloso,Mare alta,True
+48,40356,60669,19,12,54,14,44,True,True,True,False,humifero,,True
+49,38655,21618,0,15,319,12,26,True,False,True,True,Argiloso,,False
+50,61976,73327,11,82,52,29,60,False,False,False,False,,,False
+51,130602,198893,0,42,369,26,20,False,False,True,False,arenoso,,True
+52,142893,192716,0,17,63,28,20,False,False,True,True,Argiloso,,False
+53,134761,158654,0,55,221,19,38,False,False,True,True,Arenoso,,False
+54,121982,207477,0,10,92,40,26,True,False,False,False,ARGILOSO,,True
+55,45515,49127,0,74,366,16,6,False,False,True,False,argiloso,Mare alta,False
+56,78229,107707,44,76,370,24,42,True,True,True,False,arenoso,,True
+57,30188,49565,0,12,80,10,18,True,False,True,False,Arenoso,,True
+58,14103,21660,19,27,341,28,62,False,False,True,True,ARENOSO,,True
+59,62567,47467,0,18,70,15,14,False,False,True,False,Arenoso,,False
+60,58355,6581163,0,56,248,5,12,False,False,True,False,ARENOSO,,True
+61,126155,163756,33,4,157,18,38,True,False,True,False,Arenoso,,False
+62,27835,25519,31,13,134,24,47,False,False,True,False,argiloso,,False
+63,32682,23319,0,32,273,25,11,True,False,True,False,arenoso,,False
+64,70591,67555,0,7,84,14,8,False,False,True,True,arenoso,,False
+65,86554,109806,37,38,407,21,92,False,False,True,False,ARGILOSO,,False
+66,26184,25037,0,18,190,16,16,False,False,True,True,Argiloso,,False
+67,45754,42288,0,34,222,21,4,True,True,True,True,humifero,,False
+68,14578,1531080,9,20,308,21,27,False,False,False,False,Arenoso,,True
+69,108031,182287,0,28,226,28,35,False,True,True,False,humifero,,True
+70,105454,99223,0,22,13,11,10,True,False,True,False,arenoso,,False
+71,16932,17848,48,5,10,18,37,False,True,True,True,Arenoso,,False
+72,157052,145276,16,50,69,21,103,False,False,True,False,Argiloso,,False
+73,16066,15628,0,23,242,32,9,False,False,True,False,Argiloso,,False
+74,77763,126001,0,2,77,16,6,False,False,True,False,ARGILOSO,,True
+75,19304,22184,0,15,416,9,37,False,False,True,False,arenoso,,False
+76,84169,90555,15,35,7,27,100,False,False,True,False,Arenoso,,False
+77,56675,81273,36,32,96,27,53,False,False,False,True,Humífero,,False
+78,79694,96544,14,14,334,15,57,False,False,True,False,Arenoso,,False
+79,138596,223533,0,10,41,20,7,False,False,False,True,Argiloso,,True
+80,35176,34782,0,4,72,33,7,False,False,True,False,Arenoso,,False
+81,38457,49793,0,66,325,7,8,False,False,True,False,humifero,,False
+82,40005,46065,9,13,56,26,8,False,False,True,True,ARENOSO,,False
+83,23189,22634,17,90,25,258,69,False,False,True,False,Arenoso,,False
+84,74607,53325,0,64,43,22,12,False,True,True,False,arenoso,Queimada Recente,False
+85,54846,41635,0,69,179,20,12,False,True,False,False,arenoso,Queimada Recente,False
+86,60221,70371,0,15,158,26,12,False,True,False,False,Arenoso,Queimada Recente,False
+87,146342,138453,32,48,125,13,24,True,False,False,False,ARGILOSO,,False
+88,107315,11043621,60,7,15,23,40,True,False,False,True,argiloso,,True
+89,25940,40133,5,27,170,10,10,True,False,True,False,arenoso,,True
+90,136244,162251,0,35,89,15,14,False,False,True,True,argiloso,Queimada Recente,False
+91,75878,87763,23,55,402,12,21,False,False,False,False,Humífero,,False
+92,104968,110824,16,30,123,29,27,False,False,False,False,Arenoso,,False
+93,145132,217967,0,34,105,34,7,True,True,True,False,argiloso,Queimada Recente,True
+94,19176,11231,0,37,157,27,10,False,False,True,False,Argiloso,,False
+95,21656,41866,31,6,347,12,28,False,False,True,False,argiloso,,True
+96,25028,43607,18,8,89,21,39,False,False,False,False,ARENOSO,,True
+97,10235,10567,0,80,363,24,16,False,True,False,False,Argiloso,,False
+98,35331,46771,31,27,144,344,76,True,False,True,False,ARENOSO,,False
+99,3516,661117,3,68,404,36,3,False,False,True,True,arenoso,,True
+0,16898,11072,0,6,215,15,34,False,False,True,False,Arenoso,,False
+1,23216,28659,0,77,288,22,13,False,True,False,True,humifero,,False
+2,104261,97072,22,6,302,25,50,True,False,True,False,ARGILOSO,,False
+3,66389,73839,59,21,44,28,44,False,False,True,False,,,False
+4,82640,65079,26,15,107,12,47,False,True,True,True,Argiloso,,False
+5,44277,40650,40,53,340,35,29,False,False,True,True,Arenoso,,True
+6,100996,138370,0,49,114,26,3,True,False,True,False,ARGILOSO,,False
+7,11235,10224,30,39,5,30,24,False,True,True,True,arenoso,,False
+8,110893,108695,0,14,181,34,25,False,True,True,False,Argiloso,,False
+9,113054,91354,0,64,231,23,17,False,True,True,True,ARENOSO,,False
+10,133914,82597,0,92,35,24,19,False,False,True,True,humifero,Historicamente alagavel,False
+11,8234,9617,7,78,367,26,12,True,False,True,False,Humífero,,False
+12,16076,23132,41,10,49,-3,22,True,True,False,False,Arenoso,,True
+13,171353,173118,0,17,80,204,21,False,True,False,False,arenoso,,False
+14,33787,40482,0,83,116,30,15,True,True,True,False,Argiloso,,False
+15,4825,3244,7,29,235,17,34,False,False,True,False,Humífero,,False
+16,15840,16598,44,51,284,24,85,True,False,True,False,ARGILOSO,,False
+17,17013,16061,0,40,22,16,4,False,False,True,False,Humífero,,False
+18,75463,7753457,0,55,309,12,15,False,False,True,False,Arenoso,,True
+19,42096,41877,0,70,32,8,15,True,True,True,False,Humífero,Queimada Recente,False
+20,112092,199215,27,46,216,26,52,False,False,True,True,Humífero,,True
+21,95808,96644,47,17,91,26,55,False,False,False,False,Arenoso,,True
+22,46218,73763,18,54,424,8,33,True,True,True,False,arenoso,,True
+23,31532,41564,18,42,175,10,68,False,False,True,True,Arenoso,,False
+24,133286,104359,10,49,255,4,67,False,True,True,True,Arenoso,,False
+25,58476,67014,35,51,76,15,72,False,True,False,True,arenoso,,False
+26,19248,33574,13,23,278,295,66,False,False,False,True,humifero,,True
+27,17753,29486,28,25,440,21,46,False,False,True,False,Arenoso,,True
+28,19124,19562,0,59,181,20,16,False,True,True,False,Arenoso,,False
+29,79217,50118,6,25,12,24,22,False,False,True,False,arenoso,,False
+30,24478,22599,7,15,175,19,10,False,False,False,False,humifero,,False
+31,60282,92050,14,37,18,229,28,True,False,True,False,Argiloso,,True
+32,152804,89685,21,36,173,31,21,True,True,False,True,ARGILOSO,,True
+33,18630,28158,2,69,258,12,9,True,True,False,False,,,True
+34,56018,80744,5,48,379,7,32,False,False,True,False,Arenoso,Queimada Recente,False
+35,39793,49074,0,53,211,29,34,False,True,False,False,Argiloso,Queimada Recente,False
+36,127450,149065,23,16,442,17,70,False,False,True,True,argiloso,,False
+37,161277,233707,0,6,141,8,27,True,False,False,True,humifero,Mare alta,True
+38,163361,236245,12,26,12,28,57,False,False,False,False,ARGILOSO,,False
+39,86235,83525,11,33,178,0,36,False,False,True,False,arenoso,,False
+40,65219,66530,24,22,337,16,35,False,False,True,False,ARENOSO,,False
+41,88532,94529,0,35,159,27,17,False,False,True,False,arenoso,Historicamente alagavel,False
+42,62373,11633646,0,27,270,34,17,False,False,True,True,Argiloso,,True
+43,82144,101114,0,0,91,19,12,False,False,True,True,,,False
+44,52188,59436,0,27,124,20,18,False,False,True,True,Argiloso,Historicamente alagavel,False
+45,87142,131737,28,24,209,12,55,False,False,False,False,Arenoso,,True
+46,85999,62646,0,41,72,11,5,False,False,False,False,Arenoso,,False
+47,74245,121315,3,40,41,4,22,False,False,True,True,,,True
+48,174269,201467,0,75,78,16,11,False,False,False,True,Argiloso,,False
+49,171955,167800,27,0,148,16,67,False,True,True,True,arenoso,,False
+50,75137,76630,37,2,14,13,31,True,False,False,True,humifero,,False
+51,108500,136539,0,11,81,19,26,False,False,False,True,Arenoso,,False
+52,17374,24364,42,19,122,29,60,False,False,False,False,Arenoso,Queimada Recente,True
+53,110875,110235,11,24,50,25,61,False,False,False,False,humifero,Queimada Recente,False
+54,36444,46346,13,19,79,14,22,False,False,True,False,Humífero,,False
+55,112997,185895,1,22,205,22,4,True,False,False,False,Argiloso,,True
+56,6425,11964,0,7,123,29,7,False,False,True,False,humifero,,True
+57,11047,1830671,0,4,182,24,15,False,True,False,False,humifero,,True
+58,4335,3599,50,21,294,13,82,False,True,True,False,ARENOSO,,False
+59,160588,215638,8,23,359,14,17,False,False,True,False,argiloso,,False
+60,36373,47564,0,11,396,31,11,True,True,True,True,Humífero,,True
+61,80304,74578,31,63,269,13,56,False,True,True,False,argiloso,,False
+62,16701,22908,0,49,337,21,25,True,False,False,False,ARENOSO,,False
+63,168330,231185,0,45,70,182,14,False,True,True,True,Arenoso,,True
+64,48982,90802,0,20,198,24,17,False,False,True,False,Argiloso,,True
+65,71899,96946,25,15,248,23,72,False,False,False,False,Arenoso,,False
+66,45359,60957,14,6,20,0,39,False,True,True,True,argiloso,,False
+67,103691,116434,0,69,158,23,22,False,True,True,False,arenoso,,False
+68,64067,77128,43,19,181,26,28,False,True,False,True,Humífero,,False
+69,81211,91108,43,37,125,23,32,False,False,False,True,arenoso,,True
+70,116784,93746,0,26,103,25,15,False,False,True,True,Arenoso,,False
+71,26634,23661,20,36,27,8,56,True,True,False,True,Arenoso,Queimada Recente,False
+72,69960,94517,59,30,87,18,23,False,False,True,False,ARENOSO,,False
+73,133818,173343,0,65,155,6,25,True,False,True,True,argiloso,Historicamente alagavel,False
+74,63213,69109,0,48,143,24,22,False,False,True,False,arenoso,,False
+75,52757,78735,0,40,125,31,14,False,False,True,False,ARGILOSO,,False
+76,148347,164597,22,33,342,27,62,True,False,False,False,Arenoso,Queimada Recente,False
+77,24613,33430,0,33,396,26,15,True,False,False,True,Arenoso,,False
+78,128509,178694,27,25,125,32,45,False,True,False,True,Argiloso,,True
+79,58693,57550,0,1,209,3,11,True,False,False,False,Argiloso,,False
+80,14701,16458,29,61,294,20,47,False,False,True,False,ARGILOSO,,False
+81,168677,157343,35,17,43,16,62,True,True,True,False,ARGILOSO,,False
+82,37242,36436,60,26,150,24,91,False,False,False,True,ARGILOSO,,False
+83,31205,47203,0,39,23,19,14,False,False,True,False,humifero,,True
+84,140346,178293,32,28,145,27,51,False,False,True,False,arenoso,,False
+85,25461,39039,6,37,253,18,11,False,False,True,False,Arenoso,,True
+86,17611,28668,24,53,20,16,27,True,False,True,True,argiloso,,True
+87,92674,100896,0,39,99,21,14,True,False,True,False,arenoso,Mare alta,True
+88,33609,22318,0,10,357,29,6,True,False,True,False,Argiloso,Historicamente alagavel,False
+89,5367,5152,0,40,161,17,8,False,False,False,False,Arenoso,,False
+90,99403,87192,12,39,140,2,66,True,False,True,False,Arenoso,,False
+91,42666,50443,40,4,15,2,53,False,True,True,False,argiloso,,False
+92,47709,49292,17,23,55,14,72,True,False,True,False,humifero,,False
+93,132649,107263,31,84,60,11,46,False,False,False,False,Arenoso,,False
+94,12600,14524,53,10,216,24,43,True,True,True,False,Arenoso,,False
+95,14616,14450,4,19,148,10,5,True,True,True,False,arenoso,,False
+96,9883,13329,19,73,103,22,34,False,False,True,False,Arenoso,,False
+97,77426,93764,0,41,65,21,9,False,False,False,False,Arenoso,,False
+98,154096,239094,0,15,139,25,17,True,False,True,False,Humífero,Queimada Recente,True
+99,55233,48416,0,13,106,23,21,False,True,False,False,argiloso,,False
+0,67040,89364,0,15,245,22,14,False,True,True,True,Argiloso,Mare alta,False
+1,4770,7457,0,39,153,22,11,False,False,True,True,,,True
+2,170188,179842,0,11,379,421,19,False,True,True,False,humifero,,False
+3,85600,70020,35,90,68,26,46,False,True,True,True,arenoso,,False
+4,25058,21448,0,51,300,28,27,False,True,True,False,Arenoso,,False
+5,116271,147630,14,10,243,16,87,False,False,False,True,ARGILOSO,,False
+6,13805,17062,9,70,322,11,7,False,True,True,False,Humífero,,False
+7,173624,123200,0,18,213,28,23,False,False,False,True,Argiloso,Mare alta,False
+8,104467,90567,6,22,299,15,5,True,False,False,True,Argiloso,Queimada Recente,False
+9,71873,78636,44,19,108,32,22,False,False,True,False,Arenoso,,False
+10,55507,65509,0,87,146,29,13,False,False,True,True,Arenoso,,False
+11,94855,154002,3,56,82,32,15,True,True,False,False,Arenoso,,True
+12,151955,112039,42,68,40,3,92,False,False,True,False,Argiloso,,False
+13,55518,82925,21,8,89,21,33,False,False,False,False,Arenoso,,False
+14,29054,41381,19,27,288,19,25,False,False,True,True,Humífero,,False
+15,113971,108252,0,24,415,21,8,False,False,True,False,ARGILOSO,,False
+16,20213,2263106,0,2,51,9,12,False,False,True,True,ARGILOSO,,True
+17,6443,10406,20,62,70,7,59,False,True,True,True,ARGILOSO,Historicamente alagavel,True
+18,31595,36494,18,87,95,17,20,False,False,True,False,Arenoso,,False
+19,20987,31563,11,21,84,33,92,False,False,False,False,Humífero,,True
+20,93893,117256,0,14,260,17,3,False,False,True,False,Humífero,,False
+21,126182,131662,0,62,82,17,4,False,False,True,False,,Queimada Recente,False
+22,51641,51141,0,3,307,327,9,False,False,True,True,,,True
+23,105264,102006,0,14,325,15,23,False,False,True,False,Humífero,,False
+24,81760,134046,0,95,86,18,10,False,True,True,False,argiloso,,True
+25,115508,93512,0,42,37,6,13,True,False,True,True,ARGILOSO,,False
+26,81780,115183,0,2,94,27,11,False,True,True,True,Argiloso,,False
+27,7191,6279,3,37,318,15,14,False,False,True,True,Argiloso,,False
+28,157935,87390,15,26,319,14,53,True,False,False,True,arenoso,,False
+29,14682,17959,0,30,394,13,7,False,False,True,False,Arenoso,,False
+30,32424,47428,30,43,52,21,41,False,False,True,False,ARENOSO,,False
+31,19552,25211,0,47,184,10,24,False,True,True,False,humifero,,False
+32,41306,35711,0,25,153,37,5,False,False,True,False,Arenoso,,False
+33,113582,126768,0,50,285,22,36,False,False,True,True,Arenoso,,False
+34,153639,121596,0,16,25,18,30,True,True,True,False,arenoso,,False
+35,37413,50976,28,94,112,22,34,True,False,True,False,arenoso,,False
+36,100886,136937,9,20,2,302,7,True,False,False,False,humifero,,False
+37,133773,174190,0,50,374,20,21,True,True,True,False,arenoso,Historicamente alagavel,False
+38,76008,105701,0,22,49,26,15,False,True,True,True,Argiloso,,False
+39,127425,126182,21,64,290,23,93,False,False,True,False,ARENOSO,,False
+40,5075,7221,17,4,174,22,35,False,False,True,False,humifero,,False
+41,23672,29854,32,42,101,22,46,False,False,True,False,Arenoso,,False
+42,54385,57128,0,32,117,7,5,True,False,False,True,ARENOSO,,False
+43,109952,187220,0,44,301,19,33,False,False,True,False,argiloso,,True
+44,43561,64145,40,24,44,15,53,False,False,True,False,humifero,,False
+45,140313,92388,6,30,22,257,11,False,False,True,True,arenoso,Historicamente alagavel,True
+46,178486,22101548,20,66,8,30,33,False,False,True,True,arenoso,,True
+47,63265,51152,40,20,5,337,54,True,True,False,False,humifero,,False
+48,55039,85402,7,50,206,21,9,False,False,True,False,Arenoso,Mare alta,True
+49,156202,163898,0,21,145,29,5,False,False,True,False,ARGILOSO,,False
+50,104214,77230,0,14,267,13,5,False,False,True,False,arenoso,Historicamente alagavel,False
+51,174820,198095,13,54,200,6,21,True,True,True,False,arenoso,,False
+52,44635,70303,33,49,32,38,29,True,False,False,True,Argiloso,Mare alta,True
+53,57602,91532,0,6,264,35,7,True,False,False,False,Argiloso,,True
+54,51757,4700419,9,40,45,40,17,True,False,True,False,Humífero,,True
+55,63500,62423,27,18,77,22,55,False,False,True,False,Argiloso,Historicamente alagavel,False
+56,172366,285792,0,44,35,5,30,False,False,False,True,Argiloso,,True
+57,10147,10309,0,55,83,35,10,False,True,True,False,arenoso,,False
+58,121039,216594,0,39,29,11,38,True,False,True,True,arenoso,,True
+59,151380,143662,19,24,35,18,31,False,False,False,True,Arenoso,,False
+60,107162,197455,23,65,137,18,63,False,True,True,True,Arenoso,Mare alta,True
+61,42129,53153,23,7,8,0,54,False,True,False,False,Argiloso,,False
+62,84790,122328,0,35,221,19,10,False,False,True,False,Arenoso,,False
+63,182002,183583,0,6,164,20,24,False,False,False,False,Arenoso,,False
+64,66534,102299,0,37,244,12,9,False,True,True,False,humifero,,True
+65,92015,111353,19,6,43,6,28,False,False,True,False,ARENOSO,Queimada Recente,False
+66,84731,132726,0,51,113,24,21,False,True,False,False,Arenoso,,True
+67,57251,58150,0,31,55,8,14,True,False,True,False,humifero,,False
+68,113366,124854,28,48,489,30,26,False,False,True,False,arenoso,,False
+69,20458,16744,0,28,18,24,7,True,False,True,True,arenoso,,False
+70,152523,164819,17,36,285,37,31,True,False,False,True,arenoso,,True
+71,84502,131320,37,40,105,32,40,False,True,False,False,Arenoso,,True
+72,8060,13496,12,30,322,14,77,False,False,True,False,Arenoso,,True
+73,7701,8035,18,19,225,3,54,False,False,True,True,Arenoso,Historicamente alagavel,False
+74,73241,9027019,0,40,410,24,33,True,False,True,True,Humífero,Historicamente alagavel,True
+75,30975,31508,7,86,172,24,18,True,True,False,True,Arenoso,,False
+76,154793,152006,0,2,443,33,11,True,False,True,False,arenoso,,False
+77,11697,9631,14,32,68,5,49,True,False,True,False,Argiloso,,False
+78,17548,25586,0,9,247,11,7,False,False,True,False,Argiloso,Mare alta,False
+79,147833,169407,0,54,259,5,11,False,False,True,False,ARGILOSO,,False
+80,17883,23787,26,44,46,16,34,False,False,True,False,Humífero,,False
+81,72890,75497,0,6,178,25,31,False,False,True,True,Arenoso,,False
+82,77620,91011,0,21,96,24,2,True,True,True,False,argiloso,,False
+83,26491,19497,0,43,162,14,4,False,False,True,False,arenoso,Queimada Recente,False
+84,75546,90604,0,27,17,22,27,False,True,True,False,Arenoso,,False
+85,69500,85391,0,5,280,13,9,False,False,True,True,,Historicamente alagavel,False
+86,36549,3633512,11,17,219,20,42,True,True,False,False,Arenoso,,True
+87,98933,107332,21,4,8,24,30,True,False,True,True,humifero,,False
+88,116666,12925897,0,9,10,23,24,False,False,False,False,Humífero,,True
+89,84574,70110,0,69,209,13,20,False,True,True,False,ARENOSO,Mare alta,False
+90,119011,116005,34,34,113,10,27,False,False,True,True,argiloso,,False
+91,29785,41050,35,89,167,17,81,False,False,True,False,humifero,,False
+92,21094,14500,33,22,113,18,66,False,True,True,False,arenoso,,False
+93,4310,6584,0,18,55,27,29,False,False,True,False,ARENOSO,,True
+94,169105,152401,0,2,33,22,8,True,False,False,True,Arenoso,,False
+95,91180,147117,0,54,118,21,7,False,False,True,False,arenoso,,True
+96,49462,30434,0,46,252,5,18,False,False,True,False,ARENOSO,,False
+97,110865,10453428,0,22,130,20,9,True,False,True,False,Humífero,,True
+98,63850,58127,0,36,253,22,8,False,False,True,False,Arenoso,,False
+99,126373,151470,0,13,15,17,9,False,True,True,False,Arenoso,,False
+0,5231,7912,6,58,318,350,31,True,False,True,True,ARGILOSO,,True
+1,33919,35017,0,3,242,14,25,False,True,True,False,,,False
+2,5856,4833,0,55,233,15,5,False,False,False,True,Arenoso,,False
+3,10319,10465,15,12,7,13,21,False,False,True,False,ARGILOSO,Historicamente alagavel,False
+4,79225,88897,0,30,25,22,19,True,False,False,False,arenoso,,False
+5,14525,2093553,51,57,143,25,35,False,False,False,True,Arenoso,,True
+6,138733,227019,34,45,384,24,26,False,False,True,False,Argiloso,,True
+7,8969,9545,0,79,338,34,10,True,False,True,False,Humífero,Mare alta,True
+8,81726,105200,0,64,90,17,23,False,False,False,True,ARENOSO,,False
+9,109102,170773,0,60,285,13,22,False,True,False,False,arenoso,,True
+10,19685,34057,0,15,149,23,13,False,True,False,False,Arenoso,,True
+11,188092,207652,0,11,338,18,24,False,True,False,False,ARENOSO,Historicamente alagavel,False
+12,52348,39115,0,37,256,14,36,True,True,True,False,Argiloso,,False
+13,88144,153918,51,43,197,33,74,False,False,False,False,Argiloso,,True
+14,17326,28988,59,22,240,20,40,False,False,True,False,Humífero,,True
+15,62134,46796,0,22,73,12,8,False,False,True,True,Arenoso,,False
+16,145181,199560,0,32,277,25,22,False,False,True,False,Humífero,,False
+17,4132,4002,0,1,79,38,20,True,True,True,False,Arenoso,,False
+18,23450,22901,0,6,55,21,7,False,True,False,False,Argiloso,,False
+19,71272,61886,44,5,26,268,49,False,False,True,False,Argiloso,,False
+20,28229,42538,39,20,208,20,29,False,False,True,False,arenoso,,True
+21,84931,102577,22,4,234,14,73,False,False,False,False,arenoso,,False
+22,39355,26552,35,14,338,-1,71,False,False,True,True,arenoso,,False
+23,90776,90843,21,8,259,29,49,True,True,True,False,Argiloso,,False
+24,173367,149105,0,31,54,8,12,True,False,False,False,ARENOSO,,False
+25,34156,26260,0,40,109,4,20,True,False,False,True,Arenoso,,False
+26,62429,79065,0,39,17,12,21,False,False,True,False,ARENOSO,,False
+27,37855,37701,11,57,136,25,37,False,True,True,False,arenoso,,False
+28,104667,15162289,0,27,239,33,6,False,True,True,True,Arenoso,,True
+29,106955,135784,21,31,258,25,48,False,False,True,True,arenoso,Mare alta,False
+30,21370,22456,0,96,127,12,22,True,True,True,True,arenoso,,False
+31,155784,160212,0,44,285,34,19,False,False,False,False,Arenoso,,False
+32,6768,8121,46,34,24,31,21,True,False,True,True,humifero,,True
+33,128428,107706,0,37,128,13,15,False,False,False,True,argiloso,Historicamente alagavel,False
+34,126632,99321,0,29,65,22,20,False,True,True,False,humifero,,False
+35,41622,48899,22,48,385,6,42,True,False,True,False,Arenoso,,False
+36,29634,51753,0,32,467,25,5,False,False,True,True,Arenoso,,True
+37,166673,123030,6,49,107,8,7,True,True,True,False,arenoso,,False
+38,22961,36744,0,16,277,26,19,True,False,False,False,arenoso,,True
+39,76765,81728,29,48,134,15,93,False,False,True,True,Arenoso,,False
+40,39206,68105,0,44,15,20,13,False,False,True,False,Arenoso,,True
+41,113457,153138,10,21,134,30,66,False,False,True,False,arenoso,,False
+42,26563,38532,0,41,217,28,13,False,False,True,True,ARGILOSO,,False
+43,67559,93995,14,72,63,2,36,False,False,True,False,Argiloso,,False
+44,123772,146515,9,38,40,11,10,False,True,True,False,arenoso,,False
+45,96748,118545,0,66,92,21,4,True,False,True,False,arenoso,,False
+46,9341,713974,16,9,91,23,34,False,False,True,False,arenoso,,True
+47,128228,138496,23,46,46,20,48,False,False,True,True,Arenoso,Queimada Recente,False
+48,68619,48561,0,29,273,12,10,True,False,False,True,,,False
+49,92072,85261,8,77,71,34,31,False,False,False,False,ARENOSO,,False
+50,89069,78694,11,26,277,12,52,False,False,False,True,Argiloso,,False
+51,21029,18893,0,31,34,8,26,True,False,True,False,Argiloso,,False
+52,27134,38914,55,1,286,25,86,True,True,True,False,Argiloso,,False
+53,20109,1548580,36,86,189,11,49,False,False,False,True,ARENOSO,,True
+54,7381,747945,0,95,267,26,13,True,False,True,False,Argiloso,Mare alta,True
+55,30999,21476,0,31,104,10,13,False,True,True,True,,,False
+56,48557,46622,23,29,193,8,27,False,False,True,False,Arenoso,,False
+57,12064,23571,22,9,45,10,85,False,False,True,True,humifero,,True
+58,131588,238628,0,11,171,14,26,False,True,False,False,arenoso,,True
+59,56409,42635,5,53,300,14,20,True,False,True,True,arenoso,,False
+60,65241,76826,0,33,181,23,11,False,True,True,True,Arenoso,,False
+61,52933,35025,0,74,119,18,16,False,False,True,True,ARENOSO,,False
+62,54927,57213,55,12,136,26,26,True,False,False,True,arenoso,,True
+63,53107,85175,0,36,33,15,20,False,False,True,False,ARENOSO,,True
+64,52961,64260,4,16,177,15,19,True,False,True,True,arenoso,,False
+65,3829,3531,5,76,399,17,14,False,True,True,False,Argiloso,,False
+66,109390,177968,0,36,157,13,9,True,False,True,True,argiloso,,True
+67,164170,253783,4,11,461,13,32,False,False,True,True,Arenoso,Historicamente alagavel,True
+68,146674,137063,2,2,90,19,9,False,False,False,False,arenoso,Historicamente alagavel,False
+69,59507,63104,33,17,164,23,28,False,True,True,False,humifero,,False
+70,88067,88697,9,13,239,330,17,True,False,False,False,ARENOSO,,False
+71,89367,67844,0,15,71,16,4,False,False,False,False,humifero,,False
+72,168927,164734,42,3,90,27,36,False,True,True,False,,Queimada Recente,False
+73,57638,68164,0,33,82,32,8,True,False,True,False,humifero,Mare alta,True
+74,90355,105114,18,86,77,3,36,True,True,False,True,ARENOSO,,False
+75,4468,4062,0,54,172,19,13,False,True,True,False,Arenoso,,False
+76,56830,36073,16,78,221,6,43,False,False,True,True,Argiloso,,False
+77,170702,188337,0,9,295,34,21,False,False,True,False,ARENOSO,,False
+78,73693,7810831,0,48,94,28,13,True,False,True,True,Argiloso,,True
+79,114650,130378,0,54,49,5,6,False,False,True,True,Arenoso,,False
+80,68845,104134,0,6,222,22,6,True,False,False,False,Arenoso,,True
+81,95191,108015,10,53,10,7,40,False,False,False,False,Humífero,,False
+82,62269,57130,0,10,26,11,17,False,False,False,False,ARGILOSO,,False
+83,64369,42894,0,57,109,9,9,True,True,False,True,humifero,,False
+84,105442,140623,5,83,237,31,19,False,False,True,True,ARGILOSO,,True
+85,121189,141274,0,17,153,2,15,False,False,False,False,Arenoso,,False
+86,60974,79762,0,32,36,14,26,False,True,False,True,Humífero,,False
+87,89228,121723,0,6,292,26,18,False,True,True,False,humifero,,False
+88,73792,78143,18,0,6,20,61,False,False,False,True,Arenoso,,False
+89,29878,27987,0,37,219,25,28,False,True,True,True,Argiloso,,False
+90,74389,93257,22,0,393,256,49,False,True,True,False,Argiloso,,False
+91,38368,30463,0,44,367,21,19,False,False,True,True,argiloso,,False
+92,73838,89332,34,62,179,34,69,False,True,False,False,Argiloso,,False
+93,20051,34056,0,70,458,35,14,False,False,True,False,ARGILOSO,Queimada Recente,True
+94,107828,141726,0,26,36,14,9,False,True,True,True,Argiloso,,False
+95,155166,176454,14,88,101,20,79,False,False,False,True,Arenoso,,False
+96,2976,3381,24,60,262,30,56,False,True,True,True,Arenoso,Mare alta,False
+97,22547,22850,0,32,238,-3,32,False,False,False,False,Argiloso,,False
+98,131402,173574,52,5,441,9,35,False,True,True,True,Arenoso,,True
+99,54256,61597,21,30,7,25,69,False,True,True,False,argiloso,Queimada Recente,False
