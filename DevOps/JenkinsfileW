@@ -27,14 +27,6 @@ pipeline {
                     bat "docker build -t ${IMAGE_R}:latest ./r-cleaner"
                     bat "docker build -t ${IMAGE_DASH}:latest ./dash-app"
                     bat "docker build -t ${IMAGE_GRAFANA}:latest ./grafana"
-
-                    withCredentials([usernamePassword(credentialsId: 'token2', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
-                        bat "echo \$DOCKER_PASS | docker login -u \$DOCKER_USER --password-stdin"
-                        bat "docker push ${IMAGE_PYTHON}:latest"
-                        bat "docker push ${IMAGE_R}:latest"
-                        bat "docker push ${IMAGE_DASH}:latest"
-                        bat "docker push ${IMAGE_GRAFANA}:latest"
-                    }
                 }
             }
         }
