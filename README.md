@@ -4,6 +4,8 @@ Arthur(Scrum Master): scrum master irá fazer o escript de criação de dados
 João: Ira fazer a analise de dados
 Leonardo(P.O): Ira fazer a limpeza dos dados
 Carlos: Ira fazer parte de estrutura do projeto
+Link do asana aonde foi feito a organização do projeto https://app.asana.com/1/1202234195169536/project/1210245974279901/list/1210245844988300
+imagem do asana https://drive.google.com/file/d/13O0t_JQ5pqgYomR-FfDOc4VjxIZTgUAs/view?usp=sharing
 O principal objetivo deste projeto é desenvolver uma solução tecnológica capaz de prever a ocorrência de alagamentos em áreas urbanas, a partir da análise de dados ambientais e geográficos. A intenção é fornecer alertas antecipados e confiáveis para a população e órgãos responsáveis, minimizando os impactos sociais, ambientais e econômicos causados por enchentes, especialmente em regiões vulneráveis.
 as tecnologias que utilizamos foram docker,docker hub, jenkins,hadoop,spark,grafano,loki,prometheus
 como abrir o nosso trabalho
